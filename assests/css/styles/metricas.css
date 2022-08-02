@@ -1,0 +1,50 @@
+.metricas {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 3rem;
+}
+
+.metricas__container {
+    display: grid;
+    margin-right: 5rem;
+}
+
+.metricas__titulo {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.metricas__subtitulo {
+    color: var(--preto);
+    font-size: 500;
+    font-weight: 18px;
+    line-height: 28px;
+}
+
+.metricas__texto {
+    color: var(--cinza-claro);
+    font-size: 400;
+    font-weight: 16px;
+    line-height: 24px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 660px) {
+    .metricas {
+        display: grid;
+    }
+
+    .metricas__container {
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width: 920px) {
+    .metricas {
+        display: grid;
+        padding: 0 5rem;
+    }
+}
