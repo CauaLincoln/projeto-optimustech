@@ -57,8 +57,16 @@
     }
 
     .formulario__titulo {
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: .5rem;
+    }
+
+    .formulario__subtitulo {
+        font-size: 18px;
+    }
+
+    .formulario__texto {
+        font-size: 14px;
     }
     
     .formulario__container {
