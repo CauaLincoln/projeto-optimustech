@@ -104,13 +104,6 @@
         display: none;
     }
 
-    .opcoes {
-        display: none;
-        position: absolute;
-        top: 100%;
-        width: 60vw;
-    }
-
     .container__botao:checked~.opcoes {
         display: block;
     }
@@ -123,7 +116,7 @@
         display: none;
         position: absolute;
         top: 100%;
-        width: 50vw;
+        width: 60vw;
     }
 
     .opcoes__item {
