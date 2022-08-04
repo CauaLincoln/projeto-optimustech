@@ -61,7 +61,64 @@
 
 @media screen and (min-width: 0px) and (max-width: 660px) {
     .cabecalho {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        position: relative;
+    }
+
+    .cabecalho__menu-hamburguer {
+        background-image: url("../menu.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+    }
+
+    .container__menu {
+        align-items: center;
+        display: flex;
+    }
+
+    .container__menu--img {
+        padding: 1em;
+    }
+
+    .container__botao {
         display: none;
+    }
+
+    .opcoes {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 60vw;
+    }
+
+    .container__botao:checked~.opcoes {
+        display: block;
+    }
+
+    .container__botao {
+        display: none;
+    }
+
+    .opcoes {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 50vw;
+    }
+
+    .opcoes__item {
+        background-color: var(--branco);
+        padding: 1em;
+    }
+
+    .opcoes__link {
+        color: var(--preto);
     }
 }
 
