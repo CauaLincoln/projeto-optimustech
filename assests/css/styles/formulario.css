@@ -52,10 +52,6 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 660px) {
-    .formulario {
-        padding-left: 1rem;
-    }
-
     .formulario__titulo {
         font-size: 20px;
         margin-bottom: .5rem;
