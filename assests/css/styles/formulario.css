@@ -65,6 +65,10 @@
         font-size: 18px;
     }
 
+    .formulario__email {
+        width: 18rem;
+    }
+
     .formulario__texto {
         font-size: 14px;
     }
